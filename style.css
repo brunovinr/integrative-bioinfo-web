@@ -1,4 +1,4 @@
-/* Reset básico */
+/* Basic reset */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     background-color: #f9f9f9;
 }
 
-/* Cabeçalho */
+/* Header */
 header {
     background: #004bbf;
     color: #fff;
@@ -32,7 +32,7 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* Seções */
+/* Sections */
 main section {
     padding: 2rem;
     margin: 1rem auto;
@@ -41,7 +41,7 @@ main section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Rodapé */
+/* Footnote */
 footer {
     text-align: center;
     padding: 1rem;
