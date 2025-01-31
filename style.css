@@ -1,3 +1,6 @@
+@charset "UTF-8";
+
+
 /* Basic reset */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -17,7 +20,8 @@ header {
     background: #004bbf;
     color: #fff;
     padding: 1rem 0;
-    text-align: left;
+    text-align: center;
+    text-decoration: underline;
     margin: 0;
 }
 
