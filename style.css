@@ -17,12 +17,17 @@ body {
 
 /* Header */
 header {
-    background: #0659a1;
+    background: #107BE6;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     margin: 0;
+    position: fidex;
+    width: 100%;
+    top: 0;
+    transition: top 0.3s;
+    z-index: 10;
 }
 
 header nav ul {
@@ -34,6 +39,31 @@ header nav ul {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #0DA3E6;
+    text-decoration: none;
+}
+
+header h1 a:link, header h1 a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color:#0DA3E6;
+    text-decoration: underline;
+}
+
+p a {
+    color: #0DA3E6;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #107BE6;
+    text-decoration: underline;
 }
 
 /* Sections */
@@ -52,4 +82,19 @@ footer {
     background: #333;
     color: #fff;
     margin-top: 2rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0DA3E6;
+    text-decoration: underline;
+}
+
+/* Scroll Effect */
+.hidden-header {
+    top: -100px;
 }
